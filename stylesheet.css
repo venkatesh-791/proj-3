@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    background-color: br own;
+   display: flex;
+   flex-direction: column;
+}
+#main_container{
+    display: flex;
+    margin-top: 25px;
+    
+
+}
+.logo{
+    width: 120px;
+    
+    margin-left: 160px;
+}
+.material-icons{
+    margin-left: 20px;
+    margin-top: 35px;;
+     
+}
+.Dr{
+    font-size: 20px;
+    margin-top: 45px;  
+    margin-left: 60px;
+    
+   
+}
+#lefting{ 
+   flex-direction: column;
+   display: flex;
+   flex: column 20%;
+   
+   background-color: rg0b(185, 255, 127);
+   
+}
+#firstleft{
+  
+      flex-direction: column;
+      flex: 30%;
+      background-color: bl0ueviolet;
+      width: 20%;
+      height: 20%;
+    
+}
+
+.prof{
+    width: 100px;
+    margin-left: 165px;
+    margin-top: 30px;
+    
+}
+.Dr_name{
+    font-size: 15px;
+    margin-left: 138px;
+    margin-top: 22px;
+}
+
+.diab{
+    font-size: 15px;
+    margin-left: 128px;
+    margin-top: 15px;
+}
+.viewprof{
+    font-size: 18px;
+    margin-left: 168px;
+    margin-top: 15px;
+    color: orange;
+}
+
+.quick{
+    font-size: 18px;
+    color: orange;
+    padding-top: 11px;
+    margin-left: 120px;
+    margin-top: 20px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    width: 180px;   
+    height: 40px;  
+    text-align: center;
+}
+.quick:hover{
+    background-color: tomato;
+}
+#secondleft{
+   
+    
+    line-height: 7px;
+    background-color: r0gb(255, 0, 176);
+    flex-direction: column;
+    flex: 70%;  
+    width: 20%;
+}
+.menubar{
+    margin-left: 135px;
+    font-size: 20px;
+    background-color: be ige;
+    
+  
+}
+.menubar:hover{
+    color: tomato;
+}
+#righting{
+    
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 130px;
+    margin-top: 20px;
+    margin-left: 385px;
+    
+}
+.app{
+    background-color: rgb(221, 229, 236);
+    width: 1400px;
+    height: 875px;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 25px;
+    display: flex;
+    
+}
+.search{
+    
+    height: 30px;
+    display: flex;
+    right: 80px;
+    margin-left: 800px;
+
+    
+}
